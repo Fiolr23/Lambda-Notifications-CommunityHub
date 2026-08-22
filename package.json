@@ -1,0 +1,14 @@
+{
+  "name": "lambda-notifications-communityhub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Funcion AWS Lambda que revisa actividades proximas de CommunityHub y genera notificaciones de recordatorio en MongoDB",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test:local": "node --env-file=.env src/local-test.mjs"
+  },
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
+}
